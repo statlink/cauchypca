@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606722553309.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1843710988",
+    "id" : "2CAFEAE",
+    "lastKnownWriteTime" : 1606722696,
+    "last_content_update" : 1606722696295,
+    "path" : "C:/Users/user/Desktop/Folder/paketo/pchc/man/pchc.skel.boot.Rd",
+    "project_path" : "man/pchc.skel.boot.Rd",
+    "properties" : {
+        "cursorPosition" : "72,2",
+        "scrollLine" : "66"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605095893381.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2134256946",
+    "id" : "D416F7C6",
+    "lastKnownWriteTime" : 1602745130,
+    "last_content_update" : 1602745130,
+    "path" : "C:/Users/tsagris/Desktop/Folder/pchc/R/fedhc.skel.R",
+    "project_path" : "R/fedhc.skel.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

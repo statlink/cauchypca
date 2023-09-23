@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605095846405.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3757244825",
+    "id" : "623D509C",
+    "lastKnownWriteTime" : 1605095871,
+    "last_content_update" : 1605095871322,
+    "path" : "C:/Users/tsagris/Desktop/Folder/pchc/R/fedhc.R",
+    "project_path" : "R/fedhc.R",
+    "properties" : {
+        "cursorPosition" : "28,57",
+        "scrollLine" : "4"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
