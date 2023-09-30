@@ -12,5 +12,5 @@ import("foreach")
 exportPattern("^[[:alpha:]]+")
 exportPattern("^[^\\.]")
 
-
 export(cauchy.pca)
+export(.onAttach)
