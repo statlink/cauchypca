@@ -13,8 +13,8 @@ A new robust principal component analysis algorithm is implemented that relies u
 \tabular{ll}{
 Package: \tab cauchypca\cr
 Type: \tab Package\cr
-Version: \tab 1.1 \cr
-Date: \tab 2023-09-15\cr
+Version: \tab 1.2 \cr
+Date: \tab 2023-10-22\cr
 License: \tab GPL-2\cr
 }
 }
@@ -28,7 +28,8 @@ Michail Tsagris <mtsagris@uoc.gr>.
 }
 
 \references{
-Fayomi A., Pantazis Y., Tsagris M. and Wood A.T.A. (2022). Cauchy robust principal component analysis with applications to high-dimensional data sets. <arXiv:2211.03181>.
+Fayomi A., Pantazis Y., Tsagris M. and Wood A.T.A. (2022). Cauchy robust principal component analysis with applications to high-dimensional data sets. 
+Statistics and Computing (Accepted for publication). <arXiv:2211.03181>.
 }
 
 

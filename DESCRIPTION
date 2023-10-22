@@ -1,9 +1,9 @@
 Package: cauchypca
 Type: Package
 Title: Robust Principal Component Analysis Using the Cauchy Distribution 
-Version: 1.1
+Version: 1.2
 URL:
-Date: 2023-09-15
+Date: 2023-10-22
 Authors@R: c( person("Michail", "Tsagris", role = c("aut", "cre"), email = "mtsagris@uoc.gr"), 
               person("Aisha", "Fayomi", role = c("ctb"), email = "afayomi@kau.edu.sa"),
               person("Yannis", "Pantazis", role = c("ctb"), email = "pantazis@iacm.forth.gr"),
