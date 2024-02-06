@@ -1,0 +1,17 @@
+#useDynLib(pchc, .registration = TRUE)
+
+importFrom("Rfast", cauchy.mle, eachcol.apply, Mad,
+           spat.med, colMads, eachrow)
+importFrom("Rfast2", colcauchy.mle)
+
+importFrom("stats", rnorm)
+
+import("doParallel")
+import("parallel")
+import("foreach")
+
+exportPattern("^[[:alpha:]]+")
+exportPattern("^[^\\.]")
+
+export(cauchy.pca, cauchy.mle)
+export(.onAttach)
