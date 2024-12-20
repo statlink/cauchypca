@@ -87,7 +87,7 @@ cauchy.pca <- function(x, k = 1, center = "sm", scale = "mad", trials = 20, para
       res <- list( loglik = val[ind], mu = mu[ind], su = su[ind], u = mat[ind, ] )
 
     } else {
-      mod <- foreach(i = 1:trials, .combine = rbind, .export = ".cpca_helper", .packages = "Rfast") %dopar% {
+      mod <- foreach::foreach(i = 1:trials, .combine = rbind, .export = ".cpca_helper", .packages = "Rfast") %dopar% {
         a <- .cpca_helper( x, vec = rnorm(p, 0, s) )
         return( c(a$loglik, a$mu, a$su, a$u) )
       }
