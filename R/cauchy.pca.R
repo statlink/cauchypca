@@ -136,7 +136,7 @@ cauchy.pca <- function(x, k = 1, center = "sm", scale = "mad", trials = 20, para
     y <- x %*% u
     #pa <- Rfast::cauchy.mle(y, tol = 1e-07)
     #lik2 <- pa$loglik
-	pa <- Rfast2::colcauchy.mle(y, tol = 1e-07)
+  	pa <- Rfast2::colcauchy.mle(y, tol = 1e-07)
     lik2 <- pa[1]
   }
 
