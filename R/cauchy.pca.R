@@ -117,16 +117,13 @@ cauchy.pca <- function(x, k = 1, center = "sm", scale = "mad", trials = 20, para
   u <-  - Rfast::eachcol.apply( x, frac/down )
   u <- u / sqrt( sum(u^2) )
   y <- x %*% u
-  #pa <- Rfast::cauchy.mle(y, tol = 1e-07)
-  #lik2 <- pa$loglik
-  pa <- Rfast2::colcauchy.mle(y, tol = 1e-07)
-  lik2 <- pa[1]
-
+  pa <- Rfast::cauchy.mle(y, tol = 1e-07)
+  lik2 <- pa$loglik
+  
   ## step 3 and beyond
   while ( lik1 - lik2 > 1e-6 ) {  ## tolerance is 10^(-6)
     lik1 <- lik2
-    #m <- pa$param[1]   ;   ga <- pa$param[2]
-    m <- pa[2]   ;   ga <- pa[3]
+    m <- pa$param[1]   ;   ga <- pa$param[2]
     frac <- y - m
     down <- frac^2 + ga^2
     ## pera <- ( frac / down ) * x
@@ -134,12 +131,9 @@ cauchy.pca <- function(x, k = 1, center = "sm", scale = "mad", trials = 20, para
     u <-  - Rfast::eachcol.apply( x, frac/down )
     u <- u / sqrt( sum(u^2) )
     y <- x %*% u
-    #pa <- Rfast::cauchy.mle(y, tol = 1e-07)
-    #lik2 <- pa$loglik
-  	pa <- Rfast2::colcauchy.mle(y, tol = 1e-07)
-    lik2 <- pa[1]
+    pa <- Rfast::cauchy.mle(y, tol = 1e-07)
+    lik2 <- pa$loglik
   }
 
-  #list(loglik = lik2, mu = pa$param[1], su = pa$param[2], u = u)
-  list(loglik = lik2, mu = pa[2], su = pa[3], u = u)
+  list(loglik = lik2, mu = pa$param[1], su = pa$param[2], u = u)
 }
