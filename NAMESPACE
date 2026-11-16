@@ -2,12 +2,9 @@
 
 importFrom("Rfast", cauchy.mle, eachcol.apply, Mad,
            spat.med, colMads, eachrow)
-
 importFrom("stats", rnorm)
-
-import("doParallel")
 import("parallel")
-import("foreach")
+
 
 exportPattern("^[[:alpha:]]+")
 exportPattern("^[^\\.]")

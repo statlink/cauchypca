@@ -1,26 +1,26 @@
 {
-    "id": "F3E2F39D",
-    "path": "~/GitHub/cauchypca/man/cauchypca-package.Rd",
-    "project_path": "man/cauchypca-package.Rd",
-    "type": "r_doc",
+    "id": "97BC2A13",
+    "path": "~/GitHub/cauchypca/R/cauchy.pca.R",
+    "project_path": "R/cauchy.pca.R",
+    "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1781553424612.0,
+    "created": 1794838698652.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "16,21",
-        "scrollLine": "0"
+        "cursorPosition": "10,23",
+        "scrollLine": "19"
     },
     "folds": "",
-    "lastKnownWriteTime": 1781553431,
+    "lastKnownWriteTime": 1794837785,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1781553431428,
+    "last_content_update": 1794837785,
     "read_only": false,
     "read_only_alternatives": []
 }
